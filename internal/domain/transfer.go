@@ -13,7 +13,6 @@ const (
 	StatusFailed    TransferStatus = "FAILED"
 )
 
-// Transfer represents a money transfer between two accounts.
 type Transfer struct {
 	gorm.Model
 	ID            uuid.UUID      `gorm:"type:uuid;default:uuid_generate_v4()"`

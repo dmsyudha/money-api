@@ -49,3 +49,4 @@ _test/
 *.out
 # Go build cache
 *.cache
+.env
